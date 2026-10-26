@@ -1,0 +1,7 @@
+.cache/
+backups/
+__pycache__/
+*.pyc
+log.txt
+*.zip
+l4d2/

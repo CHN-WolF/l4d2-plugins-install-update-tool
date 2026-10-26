@@ -1,0 +1,19 @@
+/**
+ * OPTIONAL — only use this if you are NOT loading zombie_spawn_fix.smx.
+ *
+ * sourcescramble_manager auto-loads every file under configs/sourcescramble/.
+ * Enabling these patches here AND running zombie_spawn_fix.smx causes:
+ *   [zombie_spawn_fix.smx] Failed to verify patch: "..."
+ * because the manager already rewrote the verify bytes.
+ *
+ * Recommended: delete/rename this file and use the .smx plugin only.
+ */
+
+"Patches"
+{
+	//"zombie_spawn_fix"	"ZombieManager::CanZombieSpawnHere::IsInTransitionCondition"
+	//"zombie_spawn_fix"	"CTerrorPlayer::OnPreThinkGhostState::IsInTransitionCondition"
+	//"zombie_spawn_fix"	"CTerrorPlayer::OnPreThinkGhostState::SpawnDisabledCondition"
+	//"zombie_spawn_fix"	"ZombieManager::AccumulateSpawnAreaCollection::EnforceFinaleNavSpawnRulesCondition"
+	//"zombie_spawn_fix"	"ZombieManager::AccumulateSpawnAreaCollection::IgnoreClearState"
+}

@@ -1,0 +1,22 @@
+# 求生之路2 插件同步配置（改完保存即可，双击 update_installed.bat 用菜单操作）
+#
+# game_dir 指向带 addons\sourcemod 的 left4dead2 目录。
+# 写成上一级 “Left 4 Dead 2” 也可以，程序会自动进入 left4dead2。
+#
+# repo 一行一个，格式: 简称|git地址|分支
+# 未启用的仓库请行首加 #，或写成 简称|地址|分支|off
+# 未启用的仍显示在菜单「选择启用仓库」，可选中后单独使用；「全部」只含已启用的。
+#
+game_dir = D:\Steam\steamapps\common\Left 4 Dead 2\left4dead2
+
+repo = fbef0102|https://github.com/fbef0102/L4D1_2-Plugins.git|master
+repo = Sourcemod|https://github.com/fbef0102/Sourcemod-Plugins.git|main
+repo = Target5150|https://github.com/Target5150/MoYu_Server_Stupid_Plugins.git|master
+repo = Mineralcr|https://github.com/Mineralcr/L4D2_Public_Plugins.git|main
+repo = xiaolinRM|https://github.com/xiaolinRM/L4D2Plugins.git|main
+repo = SirPlease|https://github.com/SirPlease/L4D2-Competitive-Rework|master
+repo = blueblur0730|https://github.com/blueblur0730/modified-plugins.git|main
+repo = apples1949|https://github.com/apples1949/douban-l4d2-plugins-set.git|main
+repo = NanakaNeko|https://github.com/NanakaNeko/l4d2_plugins_coop|main
+repo = LuxLuma|https://github.com/LuxLuma/Left-4-fix|master
+repo = MatthewNeko|https://github.com/MatthewNeko/NekoSpecials-L4D2/|NS7-SM1.11+
